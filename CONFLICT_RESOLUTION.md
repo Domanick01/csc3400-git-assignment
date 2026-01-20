@@ -1,0 +1,1 @@
+I was able to fix the merge changes by using both vscode checking the changes and I used github online tools that helped me merge
