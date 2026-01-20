@@ -1,14 +1,19 @@
-num1 = int(input("What is the first number you want to add?\n"))
-operator = input("What operator would you like to use (+,-,*,/)\n")
-num2 = int(input("What is the second number you want to add?\n"))
+import math
 
-print("Result:")
-
-if operator == "+":
+def add(num1, num2):
    print(num1 + num2)
-if operator == "-":
-   print(num1 - num2) 
-if operator == "*":
+
+def subtract(num1, num2):
+   print(num1 - num2)
+
+def multiply(num1, num2):
    print(num1 * num2)
-if operator == "/":
-   print(num1/num2)
+
+def divide(num1, num2):
+   print(num1 / num2)
+
+def pow(num1, num2):
+   print(math.pow(num1, num2))
+
+def square_root(num1, num2):
+   print(math.sqrt(num1, num2))
