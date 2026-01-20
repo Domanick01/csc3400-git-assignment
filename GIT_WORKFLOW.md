@@ -12,4 +12,4 @@
     c. git pull
     d. git status
     e. git branch
-    f
+    f. git checkout 
